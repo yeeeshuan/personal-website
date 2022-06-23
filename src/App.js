@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Navbar } from './components/common';
+import {Projects} from './components/common';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <Navbar />
+      <hr className = "seperator"/>
+      <div>
+        <p className = "intro">
+        Hi! My name is Ethan Huang and I am currently a Design student at Carnegie Mellon University
+        with a minor in Human-Computer-Interaction. I am interested in exploring the intersection 
+        of computation and design to create meaningful interactions. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div>
+        <Projects />
+      </div>
     </div>
+    
   );
 }
 
