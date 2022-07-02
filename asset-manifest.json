@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/personal-website.git/static/css/main.3479ac70.css",
+    "main.js": "/personal-website.git/static/js/main.260c9cc3.js",
+    "static/media/P1.jpeg": "/personal-website.git/static/media/P1.17a9e29686a6c1d61e96.jpeg",
+    "static/media/P2.jpg": "/personal-website.git/static/media/P2.0c0e26300b1edf15bb21.jpg",
+    "index.html": "/personal-website.git/index.html",
+    "main.3479ac70.css.map": "/personal-website.git/static/css/main.3479ac70.css.map",
+    "main.260c9cc3.js.map": "/personal-website.git/static/js/main.260c9cc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3479ac70.css",
+    "static/js/main.260c9cc3.js"
+  ]
+}
