@@ -1,10 +1,25 @@
 
+a {
+    text-decoration: none;
+}
 
 h2 {
     cursor: pointer;
-    transition: all .3s ease-in-out; 
+    font-size: 15px;
+    color: white; 
+}
+
+h2:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color: darkgrey; 
+}
+
+.des{
+    cursor: pointer;
     font-size: 15px;
     color: darkgray; 
+
 }
 
 .project{
@@ -13,13 +28,10 @@ h2 {
     margin-left: 25px;
     grid-template-columns: repeat(2, 0.5fr);
     column-gap: 5px; 
+    padding-bottom: 20px;
 }
+
 
 img{
     border-radius: 15px;
-}
-
-img:hover{
-    cursor: pointer; 
-    border: 10px solid lightgray; 
 }

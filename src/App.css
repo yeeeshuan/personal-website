@@ -1,3 +1,17 @@
+.header h1 {
+  margin-top:0;
+  background-color: black;
+}
+
+.Page{
+  clear: both; 
+  background-color: black;
+}
+
+.nav{
+  padding-bottom: 30px;
+}
+
 .seperator {
   width: 100%;
   border: none;
@@ -6,9 +20,10 @@
   background-color: black;
 }
 
-
 .intro{
   margin-left: 25px;
   font-size: 30px;
   width : 50%; 
+  color: white; 
+  padding-bottom: 50px;
 }

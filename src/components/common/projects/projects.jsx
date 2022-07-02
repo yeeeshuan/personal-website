@@ -10,24 +10,26 @@ function Projects(){
             <div className="item-container">
                 <img className = "P1" src = {P1}  alt = "Lighting Engines"/> 
                 <h2> Lighting Engines </h2>
-                <p> Product Design </p>
+                <p className = "des"> Product Design </p>
             </div>
             <div className="item-container">
-                <img className = "P1" src = {P2}  alt = "Animal Project"/> 
+                <a href = "https://medium.com/@yixuanhu/animals-part-3-5d3e83581c80">
+                    <img className = "P1" src = {P2}  alt = "Animal Project"/> 
                 <h2> Animal Project </h2>
-                <p> Illustration, Animation</p>
+                <p className = "des"> Illustration, Animation</p>
+                </a>
             </div>
         </div>
         <div className = "project">
             <div className="item-container">
                 <img className = "P1" src = {P1}  alt = "Lighting Engines"/> 
                 <h2> Lighting Engines </h2>
-                <p> Product Design </p>
+                <p className = "des"> Product Design </p>
             </div>
             <div className="item-container">
                 <img className = "P1" src = {P1}  alt = "Lighting Engines"/> 
                 <h2> Lighting Engines </h2>
-                <p> Product Design</p>
+                <p className = "des"> Product Design</p>
             </div>
         </div>
         </div>

@@ -4,17 +4,12 @@ import './navbar.css'
 function Navbar(props){
     return( 
         <nav className = "nav">
-            <a href="" className="brand"> Ethan Huang</a>
             <ul className = "nav__menu">
-                <li className="nav__item"> Work</li>
-                <li className="nav__item"> Play</li>
-                <li className="nav__item"> About</li>  
+                <li> <a href = "#home"> Ethan Huang </a> </li>
+                <li> <a href = "#work"> Work </a></li>
+                <li> <a href = "play"> Play </a></li>
+                <li> <a href = "about"> About </a></li>  
             </ul>
-            <div className="nav__toggler">
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
-            </div>
         </nav>
     )
 }
