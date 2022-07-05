@@ -18,6 +18,11 @@ function App() {
       </div>
       <div>
         <Projects />
+      <div className = "footer">
+        <p>
+          @2022 Ethan Huang 
+        </p>
+      </div>
       </div>
       </div>
     </div>
